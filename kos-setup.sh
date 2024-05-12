@@ -11,12 +11,12 @@ mkdir -p "${checkout}"
 mkdir -p "${sh_toolchain}"
 mkdir -p "${arm_toolchain}"
 
-git clone git@github.com:KallistiOS/KallistiOS.git "${checkout}/kos" || echo "Already checked out..."
+git clone git@github.com:wtetzner/KallistiOS.git "${checkout}/kos" || echo "Already checked out..."
 if [[ -n "${commit}" ]]; then
     (cd "${checkout}/kos" && git fetch origin && git checkout "${commit}")
 fi
 
-(cd "${checkout}/kos" && git merge origin/libpthread)
+# (cd "${checkout}/kos" && git merge origin/libpthread)
 
 # Enter the dc-chain directory
 cd "${checkout}/kos/utils/dc-chain"
