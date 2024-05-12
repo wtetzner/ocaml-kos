@@ -3,7 +3,7 @@ This repository is just to keep track of my work on getting [OCaml](https://gith
 
 To get a KOS build setup:
 ```
-./kos-setup.sh ~/ocaml-kos latest-libpthread
+./kos-setup.sh ~/ocaml-kos ocaml
 ```
 
 Checkout OCaml:
