@@ -8,7 +8,8 @@ To get a KOS build setup:
 
 Checkout OCaml:
 ```
-git clone git@github.com:ocaml/ocaml.git ~/wip/ocaml
+git clone git@github.com:wtetzner/ocaml.git ~/wip/ocaml
+(cd ~/wip/ocaml && git checkout kos-5.1.1)
 ```
 
 To build the OCaml runtime:
